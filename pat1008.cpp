@@ -1,8 +1,5 @@
 #include <iostream>
-#include "Book.h"
-#include "math.h"
-#include "cctype"
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
 /* PAT 1008*/
 using std::cout;
 using std::endl;
