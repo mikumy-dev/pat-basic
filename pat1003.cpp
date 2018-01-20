@@ -4,7 +4,7 @@ using namespace std;
 vector<string> split(string str, char sep){
 	string s("");
 	vector<string> strv;
-	for(int i=0;i<str.length();i++){
+	for(unsigned int i=0;i<str.length();i++){
 		if(str[i]!=sep){
 			s+=str[i];
 		}else{
