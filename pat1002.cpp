@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(int argc, char** argv) {
+	// use string
 	string num;
 	cin>>num;
 	int sum=0;
@@ -9,6 +10,19 @@ int main(int argc, char** argv) {
 		char* cp = &cn;
 		sum+=atoi(cp);
 	}
+	// use char[]
+	/*
+	char num[100];
+	cin>>num;
+	int sum=0;
+	for(int i=0;i<100;i++){
+		if(num[i]!='\0'){
+			sum+=(num[i]-'0');
+		}else{
+			break;
+		}
+	}
+	*/
 	string pins[10]={"ling","yi","er","san","si","wu","liu","qi","ba","jiu"};
 	int bai,shi,ge=0;
 	if(sum>=100){
